@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostTradesThree", "PostTradesThree\PostTradesThree.csproj", "{B0C4FAE5-3A36-4753-B33B-7ABEE3BBA1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostTradesThreeTests", "PostTradesThreeTests\PostTradesThreeTests.csproj", "{684E307F-7473-4E77-AE2C-4EAF42439FB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0C4FAE5-3A36-4753-B33B-7ABEE3BBA1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C4FAE5-3A36-4753-B33B-7ABEE3BBA1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C4FAE5-3A36-4753-B33B-7ABEE3BBA1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C4FAE5-3A36-4753-B33B-7ABEE3BBA1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684E307F-7473-4E77-AE2C-4EAF42439FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684E307F-7473-4E77-AE2C-4EAF42439FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684E307F-7473-4E77-AE2C-4EAF42439FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684E307F-7473-4E77-AE2C-4EAF42439FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {452BAF6F-7DF6-4E13-B68F-E425086D2887}
+	EndGlobalSection
+EndGlobal

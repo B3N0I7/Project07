@@ -1,0 +1,42 @@
+meta {
+  name: Put Bid
+  type: http
+  seq: 4
+}
+
+put {
+  url: https://localhost:7000/Bids/8
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJsYWZvdWluZUBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoibGFmb3VpbmUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImZiNzJiNjIyLWRjNTgtNGFlNy1iMWEyLWJiODg2M2Q2Y2U5ZiIsIkpXVElEIjoiMjMwMWI0MzUtZWYxNC00MTIzLWFkNzEtNzA1MDM2MWVkMTc4IiwiRmlyc3ROYW1lIjoibGFmb3VpbmUiLCJMYXN0TmFtZSI6ImxhZm91aW5lIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjpbIlVTRVIiLCJBRE1JTiJdLCJleHAiOjE3MTE5OTA1OTQsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcwODIiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDozMDAwIn0.TwoMVUlwmV_IaBYTj15eUR723_OAasDgaeX9CgtKKpk
+}
+
+body:json {
+  {
+      "bidId": 8,
+      "account": "bidpdated",
+      "bidType": "bid004",
+      "bidQuantity": 0,
+      "askQuantity": 0,
+      "bidAmount": 0,
+      "askAmount": 0,
+      "benchmark": "bid004",
+      "bidListDate": "2024-03-27T08:20:55.033",
+      "commentary": "bid004",
+      "bidSecurity": "bid004",
+      "bidStatus": "bid004",
+      "trader": "bid004",
+      "book": "bid004",
+      "creationName": "bid004",
+      "creationDate": "2024-03-27T08:20:55.033",
+      "revisionName": "bid004",
+      "revisionDate": "2024-03-27T08:20:55.033",
+      "dealName": "bid004",
+      "dealType": "bid004",
+      "sourceListId": "bid004",
+      "side": "bid004"
+  }
+}
